@@ -1,0 +1,47 @@
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Amatic SC", sans-serif;
+}
+
+.menu {display: none}
+.bgimg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("chrizy.jpg ");
+  min-height: 110%;
+}
+table {
+  font-family: "Monospace", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bold;
+}
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #DDD;
+    
+    font-size: larger;
+    }
+    
+    tr:hover {background-color: #D6EEEE;
+    }
+  
+    
+    body {
+      font-family: "Sofia", sans-serif;
+    }
+.p{
+  font-size: 15px;
+ 
+}
+.img{
+  float:right;
+}
+.a .content{
+  color:white;
+}

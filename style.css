@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+} 
+
+body{
+ background: #f3f3f3;
+
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 450px;
+  
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,0.8);
+}
+
+.wrapper .left{
+  width: 35px;
+  background:linear-gradient(to right,#01a9ac,#01dbdf);
+  padding: 30px 25px; 
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper .left img{
+  margin-bottom: 10px;
+}
+
+.wrapper .left h4{
+  margin-bottom: 10px;
+}
+
+.wrapper .left p{
+  font-size: 12px;
+}
+.wrapper.right {
+   width: 65%;
+   background: #fff;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   padding: 30px 25px;
+}
+.wrapper .right .info,
+.wrapper .right .project{
+  margin-bottom: 25px;
+}
+.wrapper.right.info h3,
+.wrapper.right.project h3{
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #0e0e0e;
+  color:#353ce4;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.wrapper .right .info_data{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .right .project_data{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .right .info_data .data{
+  width: 45%;
+}
+.wrapper .right .project_data .data{
+  width: 45%;
+}
+.wrapper .right .info_data .data h4{
+  color: #353ce4;
+  margin-bottom: 5px;
+}
+.wrapper .right .project_data data h4{
+  color: #353ce4;
+  margin-bottom: 5px;
+}
+.wrapper .right .info_data.data p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+.wrapper .right .project_data.data p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#profile {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#activities {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+ body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  float: right;
+}
+
+button:hover {
+  opacity:1;
+}
+ 
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ img {
+ width:100px;
+ 
+}
+h2{
+  text-align: right;
+} 

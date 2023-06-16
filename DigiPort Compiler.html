@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  height: ;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5 5px 5px 5;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#profile {
+  top: 20px;
+  background-color: #04AA6D;
+  height: 50px;
+  width: 50px;
+}
+
+#activities {
+  top: 80px;
+  background-color: #2196F3;
+  height: 50px;
+}
+
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+ body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  float: right;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 10px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: right;
+  width: 25%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: top
+  z-index: 1; /* Sit on top */
+  right: 100;
+  top: 0;
+  width: 75%; /* Full width */
+  height: 50%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: none;
+  padding-top: 50px;
+  background-attachment: fixed;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color:none;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: none;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: right;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 250px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+ img {
+ width:100px;
+ 
+}
+h2{
+  text-align: right;
+}
+
+</style>
+</head>
+
+<body style = "background:url(bg.jpg.jpg); background-size : 1500px 750 px;  background-repeat: no-repeat; background-attachment: fixed;background-position: center;"> 
+  <form action="file:///C:/Users/Renz%20Alfred/OneDrive/Desktop/DigiPort%20Compiler/activities.html">
+    <input type="file" id="myFile" name="filename">
+    <input type="submit">
+  </form>
+  
+
+
+ 
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="file:///C:/Users/Renz%20Alfred/OneDrive/Desktop/DigiPort%20Compiler/profile.html" id="profile">profile</a>
+    <a href="file:///C:/Users/Renz%20Alfred/OneDrive/Desktop/DigiPort%20Compiler/activities.html" id="activities">activities</a>
+    
+  </div>
+  
+ 
+
+
+
+
+  
+          
+
+
+
+    </form>
+  </div>
+  
+  <script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+  
+
+
+ 
+
+</body>
+</html> 
